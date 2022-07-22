@@ -1,0 +1,27 @@
+a = 7
+b = 4
+c = 8
+
+if a > b > c:
+    print("a en büyüktür a =", a)
+    print("c en küçüktür c=", c)
+
+elif b > a > c:
+    print("b en büyüktür b =", b)
+    print("c en küçüktür c=", c)
+
+elif c > a > b:
+    print("c en büyüktür c =", c)
+    print("b en küçüktür b=", b)
+
+elif a > c > b:
+    print("a en büyüktür a =", a)
+    print("b en küçüktür b=", b)
+
+elif b > c > a:
+    print("b en büyüktür b =", b)
+    print("a en küçüktür a=", a)
+
+elif c > b > a:
+    print("c en büyüktür c =", c)
+    print("a en küçüktür a=", a)
